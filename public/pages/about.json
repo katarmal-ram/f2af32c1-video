@@ -1,216 +1,185 @@
-
 {
-  "meta": {
-    "title": "About Us - Ashapura Brass Industries",
-    "description": "Learn about our company's journey, infrastructure, and commitment to excellence in brass manufacturing"
-  },
   "hero": {
-    "type": "image",
-    "enabled": true,
-    "title": "About Ashapura Brass Industries",
-    "subtitle": "Excellence in Manufacturing Since 1985",
-    "description": "Discover our journey of innovation, quality, and commitment to delivering superior brass manufacturing solutions.",
-    "backgroundImage": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=2000&q=80",
     "cta": {
-      "primary": "Learn More",
-      "secondary": "Watch Video"
-    }
+      "primary": "Our Services",
+      "secondary": "Contact Us"
+    },
+    "type": "image",
+    "title": "About 123 Brass",
+    "enabled": true,
+    "subtitle": "Precision Brass Forging Excellence",
+    "description": "123 Brass is a leading brass and steel forging manufacturer dedicated to delivering high-quality custom solutions. Our commitment to precision and innovation drives us to serve diverse industrial needs with unparalleled expertise.",
+    "backgroundImage": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2"
+  },
+  "meta": {
+    "title": "123 Brass - Precision Forging Manufacturing",
+    "description": "Specialized brass and steel forging manufacturer in Jamnagar, delivering custom solutions with advanced manufacturing capabilities and industry-leading quality."
   },
   "sections": {
-    "companyOverview": {
-      "type": "company-overview",
+    "cta": {
+      "type": "cta",
+      "title": "Partner with Manufacturing Excellence",
       "enabled": true,
-      "title": "Leaders in Brass Manufacturing",
-      "subtitle": "Shaping the future of engineering with precision, innovation, and unwavering commitment to quality standards.",
-      "image": "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?auto=format&fit=crop&w=800&q=80",
+      "subtitle": "Transform Your Projects with Our Advanced Forging Solutions",
+      "primaryCTA": {
+        "text": "Get Quote",
+        "action": "/contact"
+      },
+      "secondaryCTA": {
+        "text": "Explore Capabilities",
+        "action": "/services"
+      }
+    },
+    "awards": {
+      "type": "awards",
       "items": [
         {
-          "id": "overview",
-          "content": "Ashapura Brass Industries has been a pioneer in precision brass manufacturing since 1985. We specialize in producing high-quality brass components for automotive, pneumatic, aerospace, and hydraulic applications, serving clients worldwide with exceptional quality and reliability.",
-          "highlights": [
-            "ISO 9001:2015 Quality Management Certification",
-            "Advanced CNC Machining & Automation Technology",
-            "Global Export Network Spanning 50+ Countries",
-            "Dedicated R&D Team for Product Innovation",
-            "24/7 Technical Support & Customer Service",
-            "State-of-the-Art Quality Assurance Laboratory",
-            "Sustainable Manufacturing Practices",
-            "Industry-Leading Delivery Performance"
-          ]
+          "id": "manufacturing-excellence",
+          "year": "2022",
+          "title": "Manufacturing Innovation Award",
+          "authority": "Gujarat Industrial Association",
+          "description": "Recognized for outstanding technological advancement in brass forging techniques"
+        },
+        {
+          "id": "export-excellence",
+          "year": "2021",
+          "title": "Export Performance Award",
+          "authority": "Ministry of Commerce",
+          "description": "Acknowledged for significant contributions to industrial exports"
         }
-      ]
+      ],
+      "title": "Awards & Recognition",
+      "enabled": true,
+      "subtitle": "Celebrating Excellence in Manufacturing Innovation"
+    },
+    "certificates": {
+      "type": "certificates",
+      "items": [
+        {
+          "id": "iso-quality",
+          "name": "ISO 9001:2015",
+          "image": "/placeholder.svg",
+          "description": "Certified quality management system ensuring consistent product excellence"
+        },
+        {
+          "id": "iso-environmental",
+          "name": "ISO 14001:2015",
+          "image": "/placeholder.svg",
+          "description": "Environmental management certification demonstrating sustainable practices"
+        }
+      ],
+      "title": "Certifications & Standards",
+      "enabled": true,
+      "subtitle": "Committed to Highest Quality and Environmental Standards"
     },
     "companyJourney": {
       "type": "company-journey",
-      "enabled": true,
-      "title": "Our Journey",
-      "subtitle": "Milestones that define our growth and excellence",
       "items": [
         {
-          "year": "1985",
-          "title": "Foundation",
-          "description": "Ashapura Brass Industries was founded with a vision to provide high-quality brass components."
-        },
-        {
-          "year": "1995",
-          "title": "Expansion",
-          "description": "Expanded operations with new manufacturing facilities and advanced machinery."
-        },
-        {
           "year": "2005",
-          "title": "Quality Certification",
-          "description": "Achieved ISO 9001:2000 certification, marking our commitment to quality standards."
+          "title": "Foundation",
+          "description": "Established in Jamnagar with a vision to provide high-quality brass and steel forging solutions"
+        },
+        {
+          "year": "2010",
+          "title": "First Major Expansion",
+          "description": "Upgraded manufacturing facilities and introduced advanced CNC forging technologies"
         },
         {
           "year": "2015",
-          "title": "Global Reach",
-          "description": "Established international partnerships and expanded to 50+ countries worldwide."
+          "title": "Quality Certification",
+          "description": "Achieved ISO 9001:2015 certification, solidifying our commitment to quality"
         },
         {
-          "year": "2023",
-          "title": "Innovation Hub",
-          "description": "Launched state-of-the-art R&D facility for advanced alloy development."
+          "year": "2020",
+          "title": "International Market Reach",
+          "description": "Expanded export capabilities and established international client partnerships"
         }
-      ]
+      ],
+      "title": "Our Journey",
+      "enabled": true,
+      "subtitle": "Growing Through Innovation and Excellence"
     },
     "infrastructure": {
       "type": "infrastructure",
-      "enabled": true,
-      "title": "Our Infrastructure & Equipment",
-      "subtitle": "Advanced manufacturing capabilities with precision machinery",
       "items": [
         {
-          "id": "cnc-machines",
-          "title": "CNC Machining Centers",
-          "description": "High-precision CNC turning and milling machines for complex components with tight tolerances.",
-          "capacity": "50+ Machines",
-          "specifications": "5-axis machining capability, ±0.01mm tolerance",
-          "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80"
-        },
-        {
-          "id": "forging-equipment",
-          "title": "Forging & Forming Equipment",
-          "description": "Heavy-duty forging presses and forming machines for creating strong, durable components.",
-          "capacity": "2000 Ton Press",
-          "specifications": "Hot & cold forging, die forging capabilities",
-          "image": "https://images.unsplash.com/photo-1582719471384-894fbb16e074?auto=format&fit=crop&w=600&q=80"
-        },
-        {
-          "id": "testing-equipment",
-          "title": "Quality Testing Equipment",
-          "description": "State-of-the-art testing and measurement instruments for quality assurance and material analysis.",
-          "area": "5,000 sq ft",
-          "specifications": "CMM, Spectrometer, Hardness testers, Surface finish analyzers",
-          "image": "https://images.unsplash.com/photo-1566576912293-d5ce2ba96515?auto=format&fit=crop&w=600&q=80"
+          "id": "cnc-forging",
+          "image": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2",
+          "title": "Advanced CNC Forging Machines",
+          "capacity": "5 High-Precision CNC Units",
+          "description": "State-of-the-art CNC forging equipment enabling complex brass and steel component manufacturing",
+          "specifications": "High-precision tolerances, multi-axis capabilities"
         }
-      ]
+      ],
+      "title": "Our Infrastructure",
+      "enabled": true,
+      "subtitle": "Advanced Manufacturing Capabilities"
+    },
+    "companyOverview": {
+      "type": "company-overview",
+      "image": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2",
+      "items": [
+        {
+          "id": "overview",
+          "content": "123 Brass is a premier brass and steel forging manufacturer located in Jamnagar, specializing in custom forging solutions for diverse industrial applications. With advanced manufacturing technologies and a commitment to precision, we deliver high-quality components that meet the most demanding specifications.",
+          "highlights": [
+            "ISO 9001:2015 Certified",
+            "Advanced CNC Forging Technology",
+            "Custom Manufacturing Solutions",
+            "International Market Presence",
+            "Sustainable Manufacturing Practices",
+            "Precision Engineering Capabilities"
+          ]
+        }
+      ],
+      "title": "Company Overview",
+      "enabled": true,
+      "subtitle": "Innovative Forging Solutions for Global Industries"
     },
     "manufacturingProcess": {
       "type": "manufacturing-process",
-      "enabled": true,
-      "title": "Manufacturing Process",
-      "subtitle": "Precision engineering through systematic processes",
       "items": [
         {
           "id": "design",
           "step": 1,
-          "title": "Design & Engineering",
-          "description": "Advanced modeling and engineering analysis to ensure optimal design specifications."
+          "title": "Engineering Design",
+          "description": "Comprehensive design and engineering analysis for optimal component performance"
         },
         {
           "id": "material",
           "step": 2,
           "title": "Material Selection",
-          "description": "Premium quality brass alloys sourced from certified suppliers worldwide."
+          "description": "Precise material sourcing and quality verification for brass and steel components"
         },
         {
-          "id": "machining",
+          "id": "production",
           "step": 3,
-          "title": "Precision Machining",
-          "description": "CNC machining with tight tolerances using state-of-the-art equipment."
+          "title": "Precision Forging",
+          "description": "Advanced CNC forging techniques ensuring dimensional accuracy and structural integrity"
         },
         {
           "id": "quality",
           "step": 4,
-          "title": "Quality Control",
-          "description": "Rigorous testing and inspection at every stage of the manufacturing process."
+          "title": "Rigorous Quality Control",
+          "description": "Multi-stage inspection and testing to guarantee superior product quality"
         },
         {
           "id": "finishing",
           "step": 5,
-          "title": "Surface Finishing",
-          "description": "Professional finishing treatments including polishing, coating, and plating."
+          "title": "Surface Treatment",
+          "description": "Advanced finishing processes including polishing, coating, and surface enhancement"
         },
         {
-          "id": "packaging",
+          "id": "delivery",
           "step": 6,
-          "title": "Packaging & Dispatch",
-          "description": "Secure packaging and timely dispatch with complete documentation."
+          "title": "Precise Packaging & Delivery",
+          "description": "Secure packaging and efficient logistics ensuring timely and safe component delivery"
         }
-      ]
-    },
-    "awards": {
-      "type": "awards",
+      ],
+      "title": "Manufacturing Process",
       "enabled": true,
-      "title": "Awards & Recognition",
-      "subtitle": "Celebrating excellence and industry recognition",
-      "items": [
-        {
-          "id": "excellence",
-          "title": "Manufacturing Excellence Award",
-          "year": "2023",
-          "authority": "Gujarat Industrial Development Corporation",
-          "description": "Recognized for outstanding contribution to manufacturing sector and export growth."
-        },
-        {
-          "id": "quality",
-          "title": "Quality Excellence Award",
-          "year": "2022",
-          "authority": "Bureau of Indian Standards",
-          "description": "Awarded for maintaining highest quality standards in brass manufacturing."
-        },
-        {
-          "id": "export",
-          "title": "Export Excellence Award",
-          "year": "2021",
-          "authority": "Engineering Export Promotion Council",
-          "description": "Honored for significant contribution to India's engineering exports."
-        }
-      ]
-    },
-    "certificates": {
-      "type": "certificates",
-      "enabled": true,
-      "title": "Certifications & Standards",
-      "subtitle": "Commitment to Quality and Compliance",
-      "items": [
-        {
-          "id": "iso-9001",
-          "name": "ISO 9001:2015",
-          "description": "Quality Management System",
-          "image": "/placeholder.svg"
-        },
-        {
-          "id": "iso-14001",
-          "name": "ISO 14001:2015",
-          "description": "Environmental Management",
-          "image": "/placeholder.svg"
-        }
-      ]
-    },
-    "cta": {
-      "type": "cta",
-      "enabled": true,
-      "title": "Partner with Industry Leaders",
-      "subtitle": "Join thousands of satisfied clients who trust Ashapura Brass Industries for their precision manufacturing needs.",
-      "primaryCTA": {
-        "text": "Start Your Project",
-        "action": "/contact"
-      },
-      "secondaryCTA": {
-        "text": "Explore Our Capabilities",
-        "action": "/services"
-      }
+      "subtitle": "Systematic Approach to Superior Forging Solutions"
     }
   }
 }
