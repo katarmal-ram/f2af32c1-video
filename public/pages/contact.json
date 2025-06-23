@@ -1,0 +1,50 @@
+
+{
+  "meta": {
+    "title": "Contact Us - Ashapura Brass Industries",
+    "description": "Get in touch with Ashapura Brass Industries for your precision brass manufacturing needs"
+  },
+  "hero": {
+    "type": "image",
+    "enabled": true,
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our experts",
+    "description": "Ready to discuss your brass manufacturing requirements? Contact our team today.",
+    "backgroundImage": "https://images.unsplash.com/photo-1423666639041-f56000c27a9a?auto=format&fit=crop&w=2000&q=80"
+  },
+  "sections": {
+    "contactInfo": {
+      "type": "contact-info",
+      "enabled": true,
+      "title": "Contact Information",
+      "subtitle": "Multiple ways to reach us",
+      "items": [
+        {
+          "type": "address",
+          "title": "Our Location",
+          "content": "Plot No. 42, Brass Industrial Estate, Jamnagar - 361004, Gujarat, India",
+          "icon": "map-pin"
+        },
+        {
+          "type": "phone",
+          "title": "Phone",
+          "content": "+91 288 271 0234",
+          "icon": "phone"
+        },
+        {
+          "type": "email",
+          "title": "Email",
+          "content": "info@ashapurabrass.com",
+          "icon": "mail"
+        }
+      ]
+    },
+    "contactForm": {
+      "type": "contact-form",
+      "enabled": true,
+      "title": "Send us a Message",
+      "subtitle": "Fill out the form and we'll get back to you within 24 hours",
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,196 @@
+
+{
+  "_instructions": {
+    "purpose": "About page template with comprehensive company story and credentials",
+    "usage": "Generate detailed about page showcasing company history, capabilities, and achievements",
+    "scalability": "Sections can be expanded or condensed based on company maturity and achievements"
+  },
+  "meta": {
+    "title": "[PROMPT] Generate SEO title: 'About {Company} - {Industry} Excellence Since {Year}' (max 60 chars)",
+    "description": "[PROMPT] Write meta description covering company history, expertise, and value proposition (max 160 chars)"
+  },
+  "hero": {
+    "type": "image",
+    "enabled": true,
+    "title": "[PROMPT] Generate hero title ('About {Company}', 'Our Story', 'Company Overview')",
+    "subtitle": "[PROMPT] Create subtitle with founding year and key descriptor (e.g., 'Excellence in Manufacturing Since {Year}')",
+    "description": "[PROMPT] Write compelling hero description about company journey and commitment (2-3 sentences)",
+    "backgroundImage": "[PROMPT] Professional facility/company image from Unsplash (search: manufacturing, facility, industrial, professional building)",
+    "cta": {
+      "primary": "[PROMPT] Generate primary CTA ('Learn More', 'Our Services', 'View Capabilities')",
+      "secondary": "[PROMPT] Generate secondary CTA ('Watch Video', 'Contact Us', 'Get Quote')"
+    }
+  },
+  "sections": {
+    "companyOverview": {
+      "type": "company-overview",
+      "enabled": true,
+      "title": "[PROMPT] Generate overview title ('Company Overview', 'About Our Business', 'Who We Are')",
+      "subtitle": "[PROMPT] Create subtitle emphasizing leadership/innovation in industry",
+      "image": "[PROMPT] Company/facility image from Unsplash",
+      "items": [
+        {
+          "id": "overview",
+          "content": "[PROMPT] Write comprehensive company overview (3-4 sentences) covering: founding year, specialization, target industries, global reach, and key differentiators",
+          "highlights": [
+            "[PROMPT] Generate 6-10 key company highlights including:",
+            "[PROMPT] Quality certifications (ISO standards)",
+            "[PROMPT] Technology capabilities (CNC, automation, etc.)",
+            "[PROMPT] Market reach (countries, regions)",
+            "[PROMPT] Innovation aspects (R&D, custom solutions)",
+            "[PROMPT] Customer service features",
+            "[PROMPT] Manufacturing capabilities",
+            "[PROMPT] Sustainability/environmental practices",
+            "[PROMPT] Performance metrics (delivery, quality rates)"
+          ]
+        }
+      ]
+    },
+    "companyJourney": {
+      "type": "company-journey",
+      "enabled": true,
+      "title": "[PROMPT] Generate journey title ('Our Journey', 'Company Timeline', 'Milestones')",
+      "subtitle": "[PROMPT] Create subtitle about growth and achievements over time",
+      "items": [
+        {
+          "year": "[PROMPT] Founding year",
+          "title": "Foundation",
+          "description": "[PROMPT] Write founding story - vision, initial focus, founding circumstances"
+        },
+        {
+          "year": "[PROMPT] Early expansion year (+5-10 years from founding)",
+          "title": "[PROMPT] Expansion milestone title",
+          "description": "[PROMPT] Describe early growth - facilities, equipment, market expansion"
+        },
+        {
+          "year": "[PROMPT] Quality certification year",
+          "title": "[PROMPT] Quality milestone title",
+          "description": "[PROMPT] Describe quality achievements - certifications, standards implementation"
+        },
+        {
+          "year": "[PROMPT] Market expansion year",
+          "title": "[PROMPT] Market growth milestone",
+          "description": "[PROMPT] Describe market expansion - international reach, partnerships"
+        },
+        {
+          "year": "[PROMPT] Recent innovation year",
+          "title": "[PROMPT] Innovation milestone",
+          "description": "[PROMPT] Describe recent innovations - technology upgrades, R&D initiatives"
+        },
+        "[PROMPT] Add 2-5 more milestones based on company history: technology upgrades, major contracts, facility expansions, award achievements, etc."
+      ]
+    },
+    "infrastructure": {
+      "type": "infrastructure",
+      "enabled": true,
+      "title": "[PROMPT] Generate infrastructure title ('Our Infrastructure', 'Facilities & Equipment', 'Manufacturing Capabilities')",
+      "subtitle": "[PROMPT] Create subtitle about advanced capabilities and precision",
+      "items": [
+        {
+          "id": "[PROMPT] Equipment category slug",
+          "title": "[PROMPT] Generate equipment category title",
+          "description": "[PROMPT] Write detailed description of equipment capabilities and applications",
+          "capacity": "[PROMPT] Generate capacity metric (number of machines, tonnage, etc.)",
+          "specifications": "[PROMPT] List key specifications and capabilities",
+          "image": "[PROMPT] Equipment/facility image from Unsplash"
+        },
+        "[PROMPT] Add 3-6 infrastructure items covering: CNC machines, testing equipment, production lines, quality labs, storage/logistics, etc."
+      ]
+    },
+    "manufacturingProcess": {
+      "type": "manufacturing-process",
+      "enabled": true,
+      "title": "[PROMPT] Generate process title ('Manufacturing Process', 'Our Process', 'How We Work')",
+      "subtitle": "[PROMPT] Create subtitle about systematic approach and precision",
+      "items": [
+        {
+          "id": "design",
+          "step": 1,
+          "title": "[PROMPT] Design phase title",
+          "description": "[PROMPT] Describe design and engineering phase"
+        },
+        {
+          "id": "material",
+          "step": 2,
+          "title": "[PROMPT] Material selection title",
+          "description": "[PROMPT] Describe material selection and sourcing process"
+        },
+        {
+          "id": "production",
+          "step": 3,
+          "title": "[PROMPT] Production phase title",
+          "description": "[PROMPT] Describe manufacturing/production process"
+        },
+        {
+          "id": "quality",
+          "step": 4,
+          "title": "[PROMPT] Quality control title",
+          "description": "[PROMPT] Describe quality assurance and testing procedures"
+        },
+        {
+          "id": "finishing",
+          "step": 5,
+          "title": "[PROMPT] Finishing phase title",
+          "description": "[PROMPT] Describe finishing and surface treatment processes"
+        },
+        {
+          "id": "delivery",
+          "step": 6,
+          "title": "[PROMPT] Packaging/delivery title",
+          "description": "[PROMPT] Describe packaging, documentation, and delivery process"
+        }
+      ]
+    },
+    "awards": {
+      "type": "awards",
+      "enabled": true,
+      "title": "[PROMPT] Generate awards title ('Awards & Recognition', 'Achievements', 'Industry Recognition')",
+      "subtitle": "[PROMPT] Create subtitle about excellence and industry acknowledgment",
+      "items": [
+        {
+          "id": "[PROMPT] Award slug",
+          "title": "[PROMPT] Generate award name relevant to industry",
+          "year": "[PROMPT] Recent year",
+          "authority": "[PROMPT] Generate awarding authority name",
+          "description": "[PROMPT] Write award description and significance"
+        },
+        "[PROMPT] Add 2-6 more awards based on company achievements: quality awards, export excellence, innovation awards, safety certifications, environmental certifications, etc."
+      ]
+    },
+    "certificates": {
+      "type": "certificates",
+      "enabled": true,
+      "title": "[PROMPT] Generate certificates title ('Certifications & Standards', 'Quality Certifications', 'Compliance')",
+      "subtitle": "[PROMPT] Create subtitle about commitment to quality and compliance",
+      "items": [
+        {
+          "id": "iso-quality",
+          "name": "[PROMPT] Quality standard (ISO 9001:2015, etc.)",
+          "description": "[PROMPT] Quality management description",
+          "image": "/placeholder.svg"
+        },
+        {
+          "id": "iso-environmental",
+          "name": "[PROMPT] Environmental standard (ISO 14001, etc.)",
+          "description": "[PROMPT] Environmental management description",
+          "image": "/placeholder.svg"
+        },
+        "[PROMPT] Add more certifications based on industry: safety standards, industry-specific certifications, material certifications, etc."
+      ]
+    },
+    "cta": {
+      "type": "cta",
+      "enabled": true,
+      "title": "[PROMPT] Generate partnership CTA title ('Partner with Excellence', 'Join Our Success Story')",
+      "subtitle": "[PROMPT] Create compelling subtitle encouraging partnership/engagement",
+      "primaryCTA": {
+        "text": "[PROMPT] Primary action ('Start Your Project', 'Get Quote', 'Contact Us')",
+        "action": "/contact"
+      },
+      "secondaryCTA": {
+        "text": "[PROMPT] Secondary action ('Explore Capabilities', 'View Services')",
+        "action": "[PROMPT] Appropriate destination ('/services', '/products')"
+      }
+    }
+  }
+}

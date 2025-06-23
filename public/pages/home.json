@@ -1,0 +1,246 @@
+
+{
+  "meta": {
+    "title": "Ashapura Brass Industries - Precision Engineering Excellence",
+    "description": "Leading manufacturer of precision brass components for automotive, pneumatic, aerospace, and hydraulic applications"
+  },
+  "hero": {
+    "type": "video",
+    "enabled": true,
+    "title": "Precision Brass Engineering Excellence",
+    "subtitle": "Manufacturing superior brass components for critical applications",
+    "backgroundVideo": "https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/NL0L5N5Rgimkt8edi/videoblocks-authomatic-lathe-drill-the-thread-and-rounds-the-edges-of-the-part_seemoxrjtx__456bda19ebbb32c7b3b6e1208019deab__P1080.mp4?response-content-disposition=attachment%3Bfilename%3Dauthomatic-lathe-drill-the-thread-and-rounds-the-edges-of-the-part-SBV-327456926-preview.mp4",
+    "backgroundImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2000&q=80",
+    "cta": {
+      "primary": "Explore Products",
+      "primaryAction": "/products",
+      "secondary": "Get Quote",
+      "secondaryAction": "/contact"
+    }
+  },
+  "sections": {
+    "whyChooseUs": {
+      "type": "why-choose-us",
+      "enabled": true,
+      "title": "Why Choose Ashapura Brass Industries",
+      "subtitle": "Excellence in precision brass manufacturing",
+      "items": [
+        {
+          "id": "quality",
+          "icon": "award",
+          "title": "Superior Quality",
+          "description": "ISO 9001:2015 certified manufacturing processes ensuring consistent quality and reliability in every component."
+        },
+        {
+          "id": "experience",
+          "icon": "clock",
+          "title": "35+ Years Experience",
+          "description": "Over three decades of expertise in precision brass machining and manufacturing complex components."
+        },
+        {
+          "id": "technology",
+          "icon": "cog",
+          "title": "Advanced Technology",
+          "description": "State-of-the-art CNC machines and automated production lines for precision manufacturing."
+        }
+      ]
+    },
+    "aboutusintro": {
+      "type": "about-us-intro",
+      "enabled": true,
+      "title": "About Ashapura Brass Industries",
+      "subtitle": "Leading precision brass component manufacturer",
+      "description": "Established in 1985, Ashapura Brass Industries has been at the forefront of precision brass manufacturing, serving automotive, pneumatic, aerospace, and hydraulic industries with superior quality components and exceptional customer service.",
+      "image": "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?auto=format&fit=crop&w=800&q=80",
+      "highlights": [
+        "ISO 9001:2015 Certified",
+        "500+ Product Variants Available",
+        "50+ Countries Served",
+        "24/7 Technical Support"
+      ]
+    },
+    "stats": {
+      "type": "stats",
+      "enabled": true,
+      "title": "Our Manufacturing Achievements",
+      "subtitle": "Delivering excellence across global markets",
+      "items": [
+        { "number": "35+", "label": "Years Experience" },
+        { "number": "500+", "label": "Product Variants" },
+        { "number": "50+", "label": "Countries Served" },
+        { "number": "10000+", "label": "Satisfied Clients" }
+      ]
+    },
+    "expertise": {
+      "type": "expertise",
+      "enabled": true,
+      "title": "Our Industry Expertise",
+      "subtitle": "Specialized brass components for critical applications",
+      "description": "We serve diverse industries with precision-engineered brass components that meet the highest quality standards.",
+      "sectors": [
+        {
+          "id": "automotive",
+          "name": "Automotive Industry",
+          "description": "High-precision brass components for automotive systems including engine parts and fuel delivery systems.",
+          "image": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=600&q=80",
+          "applications": [
+            "Engine Components",
+            "Fuel Systems",
+            "Brake Systems",
+            "Transmission Parts",
+            "Cooling Systems"
+          ]
+        },
+        {
+          "id": "electrical",
+          "name": "Electrical Industry",
+          "description": "Precision electrical components including terminals, connectors, and switching elements.",
+          "image": "https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&w=600&q=80",
+          "applications": [
+            "Electrical Contacts",
+            "Switch Connectors",
+            "Terminal Switches",
+            "Circuit Breakers",
+            "Electronic Components"
+          ]
+        },
+        {
+          "id": "construction",
+          "name": "Construction Industry",
+          "description": "Durable brass fittings and hardware for construction and architectural applications.",
+          "image": "https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?auto=format&fit=crop&w=600&q=80",
+          "applications": [
+            "Plumbing Fittings",
+            "Hardware Components",
+            "Architectural Fittings",
+            "Structural Components",
+            "Decorative Elements"
+          ]
+        },
+        {
+          "id": "marine",
+          "name": "Marine Industry",
+          "description": "Corrosion-resistant brass components designed for marine and offshore applications.",
+          "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=80",
+          "applications": [
+            "Propeller Shafts",
+            "Marine Valves",
+            "Hull Fittings",
+            "Navigation Equipment",
+            "Deck Hardware"
+          ]
+        },
+        {
+          "id": "aerospace",
+          "name": "Aerospace Industry",
+          "description": "High-precision components meeting stringent aerospace quality and safety standards.",
+          "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=600&q=80",
+          "applications": [
+            "Aircraft Components",
+            "Hydraulic Fittings",
+            "Navigation Systems",
+            "Control Mechanisms",
+            "Safety Equipment"
+          ]
+        },
+        {
+          "id": "industrial",
+          "name": "Industrial Machinery",
+          "description": "Robust brass components for heavy machinery and industrial equipment applications.",
+          "image": "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?auto=format&fit=crop&w=600&q=80",
+          "applications": [
+            "Machine Components",
+            "Hydraulic Fittings",
+            "Valve Bodies",
+            "Pressure Vessels",
+            "Heat Exchangers"
+          ]
+        },
+        {
+          "id": "hvac",
+          "name": "HVAC Systems",
+          "description": "Precision fittings and components for heating, ventilation, and air conditioning systems.",
+          "image": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=600&q=80",
+          "applications": [
+            "Pipe Fittings",
+            "Valve Components",
+            "Control Parts",
+            "Distribution Systems",
+            "System Components"
+          ]
+        },
+        {
+          "id": "oil-gas",
+          "name": "Oil & Gas",
+          "description": "High-pressure resistant components for oil and gas exploration and processing equipment.",
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80",
+          "applications": [
+            "Drilling Equipment",
+            "Pipeline Fittings",
+            "Pressure Gauges",
+            "Control Valves",
+            "Safety Equipment"
+          ]
+        }
+      ]
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "enabled": true,
+      "title": "What Our Clients Say",
+      "subtitle": "Trusted by industry leaders worldwide",
+      "items": [
+        {
+          "id": "client-1",
+          "name": "Rajesh Kumar",
+          "company": "AutoTech Engineering Ltd",
+          "designation": "Purchase Manager",
+          "content": "Ashapura Brass Industries has consistently delivered high-quality components on time. Their precision and attention to detail is remarkable.",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80"
+        },
+        {
+          "id": "client-2",
+          "name": "Sarah Johnson",
+          "company": "Global Industrial Solutions",
+          "designation": "Procurement Director",
+          "content": "We've been working with Ashapura for over 10 years. Their quality standards and customer service are exceptional.",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1a7?auto=format&fit=crop&w=150&q=80"
+        }
+      ]
+    },
+    "faqs": {
+      "type": "faqs",
+      "enabled": true,
+      "title": "Frequently Asked Questions",
+      "subtitle": "Common questions about our products and services",
+      "items": [
+        {
+          "id": "minimum-order",
+          "question": "What is the minimum order quantity?",
+          "answer": "Our minimum order quantity varies by product complexity. For standard items, it's typically 100 pieces, while custom components may require higher quantities."
+        },
+        {
+          "id": "lead-time",
+          "question": "What are the typical lead times?",
+          "answer": "Standard products: 2-3 weeks. Custom components: 4-6 weeks. Rush orders can be accommodated with additional charges."
+        }
+      ]
+    },
+    "cta": {
+      "type": "cta",
+      "enabled": true,
+      "title": "Ready to Experience Precision Excellence?",
+      "subtitle": "Join thousands of satisfied clients who trust Ashapura Brass Industries for their precision manufacturing needs. Get started today.",
+      "primaryCTA": {
+        "text": "View Our Products",
+        "action": "/products"
+      },
+      "secondaryCTA": {
+        "text": "Contact Now",
+        "action": "tel:+91-288-2710234"
+      }
+    }
+  }
+}

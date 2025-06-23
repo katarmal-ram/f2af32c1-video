@@ -1,0 +1,80 @@
+
+{
+  "_instructions": {
+    "purpose": "Global configuration template with AI generation prompts including WhatsApp and map integration",
+    "usage": "Use this template to generate site-wide configuration with company-specific details, WhatsApp support, and location mapping",
+    "notes": "Replace all [PROMPT] sections with actual generated content based on company/industry context"
+  },
+  "site": {
+    "name": "[PROMPT] Generate a professional company name for a {industry} business that specializes in {primary_service}",
+    "tagline": "[PROMPT] Create a compelling 3-5 word tagline that captures the essence of precision, quality, and excellence in {industry}",
+    "favicon": "[PROMPT] Provide a professional favicon URL that represents {industry} or use a generic professional icon from Unsplash"
+  },
+  "company": {
+    "name": "[PROMPT] Same as site.name - ensure consistency",
+    "tagline": "[PROMPT] Same as site.tagline - ensure consistency", 
+    "logo": "[PROMPT] Generate a professional company logo URL from Unsplash that represents {industry} (search terms: logo, {industry}, professional, business)",
+    "description": "[PROMPT] Write a compelling 1-2 sentence company description highlighting expertise in {industry} and commitment to quality/precision"
+  },
+  "contact": {
+    "address": "[PROMPT] Generate a realistic business address for a {industry} company in {city}, {country} - format: Plot/Building No., Area, City - PIN, State, Country",
+    "phone": "[PROMPT] Generate a realistic phone number for {country} - format: +{country_code}-{area_code}-{number}",
+    "email": "[PROMPT] Generate a professional email address using company name: info@{company_domain}.com",
+    "timing": [
+      {
+        "label": "[PROMPT] Standard business days (e.g., 'Mon - Fri', 'Monday - Friday')",
+        "hours": "[PROMPT] Standard business hours (e.g., '9:00 AM - 6:00 PM', '8:30 AM - 5:30 PM')"
+      },
+      {
+        "label": "[PROMPT] Weekend/alternate day (e.g., 'Saturday', 'Sat')",
+        "hours": "[PROMPT] Weekend hours if applicable (e.g., '9:00 AM - 2:00 PM', 'Closed')"
+      }
+    ]
+  },
+  "whatsapp": {
+    "number": "[PROMPT] Same as contact.phone - ensure consistency for WhatsApp integration",
+    "message": "[PROMPT] Generate a professional pre-filled WhatsApp message: 'Hello! I'm interested in your {industry} services and would like to know more about your {primary_products/services}.'"
+  },
+  "map": {
+    "embedCode": "[PROMPT] Generate Google Maps embed iframe code for the company address. Use Google Maps embed generator with the company address. Include proper iframe attributes: width='100%', height='300', style='border:0;', allowfullscreen, loading='lazy'"
+  },
+  "header": {
+    "navigation": [
+      { "label": "Home", "href": "/" },
+      { "label": "About Us", "href": "/about" },
+      { "label": "Services", "href": "/services" },
+      { "label": "Products", "href": "/products" },
+      { "label": "Contact", "href": "/contact" }
+    ]
+  },
+  "footer": {
+    "navigation": "[PROMPT] Same as header navigation - ensure consistency",
+    "social": [
+      {
+        "platform": "facebook",
+        "url": "[PROMPT] Generate Facebook business page URL: https://facebook.com/{company_handle}",
+        "icon": "facebook"
+      },
+      {
+        "platform": "linkedin",
+        "url": "[PROMPT] Generate LinkedIn company page URL: https://linkedin.com/company/{company_handle}",
+        "icon": "linkedin"
+      },
+      {
+        "platform": "twitter",
+        "url": "[PROMPT] Generate Twitter/X business profile URL: https://twitter.com/{company_handle}",
+        "icon": "twitter"
+      },
+      {
+        "platform": "instagram",
+        "url": "[PROMPT] Generate Instagram business profile URL: https://instagram.com/{company_handle}",
+        "icon": "instagram"
+      }
+    ],
+    "branding": {
+      "text": "Made with ❤️ by",
+      "company": "[PROMPT] Generate web development company name or use 'Ferralabs'",
+      "url": "[PROMPT] Generate web development company URL or use 'https://ferralabs.in'"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+
+{
+  "_instructions": {
+    "purpose": "Products page template with comprehensive product catalog and compatibility matrix",
+    "usage": "Generate dynamic product catalog with categories, detailed product information, and compatibility matrix",
+    "scalability": "Categories can range from 3-15, products per category from 2-20 based on company offerings"
+  },
+  "meta": {
+    "title": "[PROMPT] Generate SEO title: '{Product Category} Products - {Company} | {Key Product Types}' (max 60 chars)",
+    "description": "[PROMPT] Write meta description covering main product categories, applications, and quality features (max 160 chars)"
+  },
+  "hero": {
+    "type": "image",
+    "enabled": true,
+    "title": "[PROMPT] Generate products hero title ('Our Products', 'Product Range', 'Quality Products')",
+    "subtitle": "[PROMPT] Create subtitle describing product quality and applications",
+    "backgroundImage": "[PROMPT] Product showcase image from Unsplash (search: {industry} products, manufacturing, precision parts, industrial components)"
+  },
+  "sections": {
+    "products": {
+      "type": "products",
+      "enabled": true,
+      "title": "[PROMPT] Generate products section title ('Product Categories', 'Our Product Range', 'Browse Products')",
+      "subtitle": "[PROMPT] Create subtitle about comprehensive solutions and quality",
+      "items": []
+    },
+    "compatibility": {
+      "type": "compatibility-matrix",
+      "enabled": true,
+      "title": "[PROMPT] Generate compatibility title ('Product Compatibility Matrix', 'Application Compatibility', 'System Compatibility Guide')",
+      "subtitle": "[PROMPT] Create subtitle about finding right components for specific applications",
+      "matrix": {
+        "applications": [
+          "[PROMPT] Generate 4-8 key application areas/industries (e.g., 'Automotive', 'Marine', 'Aerospace', 'Industrial', 'HVAC', 'Oil & Gas')"
+        ],
+        "products": [
+          {
+            "name": "[PROMPT] Product category name matching main product categories",
+            "compatibility": "[PROMPT] Array of boolean values indicating compatibility with each application (true/false for each application in order)"
+          }
+        ],
+        "legend": {
+          "compatible": "Fully Compatible",
+          "limited": "Limited Compatibility",
+          "notCompatible": "Not Recommended"
+        }
+      }
+    },
+    "cta": {
+      "type": "cta",
+      "enabled": true,
+      "title": "[PROMPT] Generate product CTA title ('Need Custom Products?', 'Request Quote', 'Custom Solutions Available')",
+      "subtitle": "[PROMPT] Create subtitle encouraging custom inquiries and technical support",
+      "primaryCTA": {
+        "text": "[PROMPT] Primary action ('Request Quote', 'Custom Solutions', 'Contact Sales')",
+        "action": "/contact"
+      },
+      "secondaryCTA": {
+        "text": "[PROMPT] Secondary action ('Technical Support', 'Call Expert', 'Get Help')",
+        "action": "[PROMPT] Phone or support destination"
+      }
+    }
+  },
+  "products": {
+    "allProductsTitle": "[PROMPT] Generate all products title ('Complete Product Range', 'All Products', 'Full Catalog')",
+    "allProductsSubtitle": "[PROMPT] Create subtitle about comprehensive offerings and precision",
+    "categoriesTitle": "[PROMPT] Generate categories title ('Product Categories', 'Browse by Category', 'Find Your Products')",
+    "categoriesSubtitle": "[PROMPT] Create subtitle about finding right solutions for specific needs",
+    "categories": [
+      {
+        "id": "[PROMPT] Category slug (e.g., 'fittings', 'valves', 'components')",
+        "name": "[PROMPT] Category name",
+        "description": "[PROMPT] Write category description highlighting applications and benefits",
+        "image": "[PROMPT] Category image from Unsplash",
+        "products": [
+          {
+            "id": "[PROMPT] Product slug",
+            "name": "[PROMPT] Product name",
+            "description": "[PROMPT] Write product description focusing on key features and applications",
+            "specifications": [
+              "[PROMPT] Generate 3-6 key specifications (size ranges, materials, standards, pressure ratings, etc.)"
+            ],
+            "applications": [
+              "[PROMPT] Generate 3-6 specific applications/use cases"
+            ],
+            "image": "[PROMPT] Product image from Unsplash"
+          },
+          "[PROMPT] Add 2-8 more products per category based on actual product range"
+        ]
+      },
+      "[PROMPT] Add 3-12 more categories based on company's product portfolio. Common categories for manufacturing: fittings, valves, components, fasteners, custom parts, assemblies, etc."
+    ]
+  }
+}

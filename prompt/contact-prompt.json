@@ -1,0 +1,56 @@
+
+{
+  "_instructions": {
+    "purpose": "Contact page template with comprehensive contact information and forms",
+    "usage": "Generate contact page that makes it easy for customers to reach the company",
+    "customization": "Contact methods can be customized based on company preferences and target audience"
+  },
+  "meta": {
+    "title": "[PROMPT] Generate SEO title: 'Contact {Company} - {Industry} Experts | Get Quote Today' (max 60 chars)",
+    "description": "[PROMPT] Write meta description encouraging contact, mentioning response time and expertise (max 160 chars)"
+  },
+  "hero": {
+    "type": "image",
+    "enabled": true,
+    "title": "[PROMPT] Generate contact hero title ('Contact Us', 'Get In Touch', 'Reach Our Experts')",
+    "subtitle": "[PROMPT] Create welcoming subtitle encouraging contact",
+    "description": "[PROMPT] Write description about readiness to help and discuss requirements",
+    "backgroundImage": "[PROMPT] Professional contact/office image from Unsplash (search: office, contact, professional, business meeting)"
+  },
+  "sections": {
+    "contactInfo": {
+      "type": "contact-info",
+      "enabled": true,
+      "title": "[PROMPT] Generate contact info title ('Contact Information', 'Reach Us', 'Multiple Ways to Connect')",
+      "subtitle": "[PROMPT] Create subtitle about accessibility and responsiveness",
+      "items": [
+        {
+          "type": "address",
+          "title": "[PROMPT] Address section title ('Our Location', 'Visit Us', 'Head Office')",
+          "content": "[PROMPT] Use same address as in config.json - ensure consistency",
+          "icon": "map-pin"
+        },
+        {
+          "type": "phone",
+          "title": "[PROMPT] Phone section title ('Phone', 'Call Us', 'Direct Line')",
+          "content": "[PROMPT] Use same phone as in config.json - ensure consistency",
+          "icon": "phone"
+        },
+        {
+          "type": "email",
+          "title": "[PROMPT] Email section title ('Email', 'Send Message', 'Email Us')",
+          "content": "[PROMPT] Use same email as in config.json - ensure consistency",
+          "icon": "mail"
+        },
+        "[PROMPT] Add optional additional contact methods: WhatsApp, LinkedIn, specific department contacts, emergency contact, etc."
+      ]
+    },
+    "contactForm": {
+      "type": "contact-form",
+      "enabled": true,
+      "title": "[PROMPT] Generate form title ('Send Message', 'Get In Touch', 'Contact Form')",
+      "subtitle": "[PROMPT] Create subtitle about response time and helpfulness (e.g., 'Fill out the form and we'll get back to you within {X} hours')",
+      "items": []
+    }
+  }
+}

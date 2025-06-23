@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "type": "image",
+    "title": "Connect with Sahara Brass Experts",
+    "enabled": true,
+    "subtitle": "Your Precision Manufacturing Partner is Just a Message Away",
+    "description": "Ready to discuss your precision brass component needs? Our team of experts is prepared to provide tailored solutions for your specific requirements.",
+    "backgroundImage": "https://images.unsplash.com/photo-1517048676732-d65bc9c4d267"
+  },
+  "meta": {
+    "title": "Sahara Brass - Precision Components Manufacturing Contact",
+    "description": "Contact Sahara Brass for expert precision brass manufacturing solutions. Quick response, custom quotes, and industry-leading manufacturing support."
+  },
+  "sections": {
+    "contactForm": {
+      "type": "contact-form",
+      "items": [],
+      "title": "Send Us Your Inquiry",
+      "enabled": true,
+      "subtitle": "Fill out the form and our team will respond within 24 business hours with a comprehensive solution."
+    },
+    "contactInfo": {
+      "type": "contact-info",
+      "items": [
+        {
+          "icon": "map-pin",
+          "type": "address",
+          "title": "Our Manufacturing Facility",
+          "content": "123 Industrial Park Road, Phoenix, AZ 85001, United States"
+        },
+        {
+          "icon": "phone",
+          "type": "phone",
+          "title": "Direct Sales Line",
+          "content": "+1 (602) 555-7890"
+        },
+        {
+          "icon": "mail",
+          "type": "email",
+          "title": "Business Inquiries",
+          "content": "sales@saharabrass.com"
+        },
+        {
+          "icon": "linkedin",
+          "type": "social",
+          "title": "LinkedIn Profile",
+          "content": "linkedin.com/company/saharabrass"
+        },
+        {
+          "icon": "whatsapp",
+          "type": "messaging",
+          "title": "WhatsApp Support",
+          "content": "+1 (602) 555-7891"
+        }
+      ],
+      "title": "Multiple Ways to Connect",
+      "enabled": true,
+      "subtitle": "We're accessible through various channels to ensure your manufacturing needs are met efficiently."
+    }
+  }
+}

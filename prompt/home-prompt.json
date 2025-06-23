@@ -1,0 +1,180 @@
+
+{
+  "_instructions": {
+    "purpose": "Home page template with AI generation prompts",
+    "usage": "Generate dynamic home page content that showcases company strengths and expertise",
+    "sections_count": "Sections can be scaled - add/remove items based on company size and offerings",
+    "content_tone": "Professional, confident, customer-focused",
+    "icon_options": "Available Lucide icons: award, clock, cog, wrench, truck, headphones, shield, shield-check, star, zap, settings, check-circle, trophy, users, globe, target, trending-up, thumbs-up, lightbulb, heart, cpu, gauge, calendar, package, phone, mail, map-pin"
+  },
+  "meta": {
+    "title": "[PROMPT] Generate SEO-optimized title: '{Company Name} - {Primary Service} | {Key Benefit/USP}' (max 60 chars)",
+    "description": "[PROMPT] Create compelling meta description highlighting company expertise, location, and main services (max 160 chars)"
+  },
+  "hero": {
+    "type": "[PROMPT] Choose hero type: 'video' for manufacturing/industrial, 'image' for service-based, 'carousel' for diverse offerings",
+    "enabled": true,
+    "title": "[PROMPT] Create powerful headline emphasizing precision/excellence in {industry} (e.g., 'Precision {Industry} Excellence', '{Industry} Innovation Leaders')",
+    "subtitle": "[PROMPT] Generate supporting subtitle describing main value proposition (e.g., 'Manufacturing superior components for critical applications')",
+    "backgroundVideo": "[PROMPT] For video hero: Find manufacturing/industrial video URL from approved video sources",
+    "backgroundImage": "[PROMPT] For image hero: Use Unsplash URL with search terms: {industry}, manufacturing, precision, industrial (min 2000px width)",
+    "cta": {
+      "primary": "[PROMPT] Generate primary CTA text ('Explore Products', 'View Services', 'Get Started')",
+      "primaryAction": "[PROMPT] Primary CTA destination ('/products', '/services', '/contact')",
+      "secondary": "[PROMPT] Generate secondary CTA text ('Get Quote', 'Learn More', 'Contact Us')",
+      "secondaryAction": "[PROMPT] Secondary CTA destination ('/contact', '/about', 'tel:+phone')"
+    }
+  },
+  "sections": {
+    "whyChooseUs": {
+      "type": "why-choose-us",
+      "enabled": "[PROMPT] Set to true to enable section",
+      "title": "[PROMPT] Generate section title highlighting company advantages ('Why Choose {Company}', 'Our Competitive Edge')",
+      "subtitle": "[PROMPT] Create subtitle emphasizing excellence and expertise",
+      "items": [
+        {
+          "id": "quality",
+          "icon": "[PROMPT] Choose from available icons: award, shield-check, star, trophy (use exact name)",
+          "title": "[PROMPT] Generate quality-focused benefit title",
+          "description": "[PROMPT] Write description highlighting quality certifications, standards, and processes (2-3 sentences)"
+        },
+        {
+          "id": "experience",
+          "icon": "[PROMPT] Choose from available icons: clock, calendar, trending-up (use exact name)",
+          "title": "[PROMPT] Generate experience-focused title with years/expertise",
+          "description": "[PROMPT] Write description emphasizing years of experience and track record"
+        },
+        {
+          "id": "technology",
+          "icon": "[PROMPT] Choose from available icons: cog, cpu, zap, settings (use exact name)",
+          "title": "[PROMPT] Generate technology/innovation focused title",
+          "description": "[PROMPT] Write description about advanced equipment, processes, or innovation"
+        },
+        "[PROMPT] Add 1-3 more items based on company strengths using available icons: customer service (headphones, phone), global reach (globe), customization (wrench), etc."
+      ]
+    },
+    "aboutusintro": {
+      "type": "about-us-intro",
+      "enabled": "[PROMPT] Set to true to enable section",
+      "title": "[PROMPT] Generate about section title ('About {Company}', 'Our Story', 'Company Overview')",
+      "subtitle": "[PROMPT] Create descriptive subtitle about company positioning",
+      "description": "[PROMPT] Write compelling 3-4 sentence company introduction covering: founding year, industry focus, key services, and value proposition",
+      "image": "[PROMPT] Select professional company/industry image from Unsplash (search: {industry}, manufacturing, facility, professional)",
+      "highlights": [
+        "[PROMPT] Generate 4-6 key company highlights/achievements",
+        "[PROMPT] Include certifications (e.g., 'ISO 9001:2015 Certified')",
+        "[PROMPT] Include scale metrics (e.g., '500+ Product Variants', 'X+ Countries Served')",
+        "[PROMPT] Include service highlights (e.g., '24/7 Technical Support')",
+        "[PROMPT] Include capacity/capability highlights"
+      ]
+    },
+    "stats": {
+      "type": "stats",
+      "enabled": "[PROMPT] Set to true to enable section",
+      "title": "[PROMPT] Generate achievements title ('Our Achievements', 'Success Metrics', 'By the Numbers')",
+      "subtitle": "[PROMPT] Create subtitle about delivering results/excellence",
+      "items": [
+        {
+          "number": "[PROMPT] Years in business (e.g., '25+', '35+')",
+          "label": "Years Experience"
+        },
+        {
+          "number": "[PROMPT] Product/service count (e.g., '500+', '1000+')",
+          "label": "[PROMPT] Appropriate label ('Products', 'Services', 'Solutions')"
+        },
+        {
+          "number": "[PROMPT] Market reach (e.g., '50+', '25+')",
+          "label": "[PROMPT] Geographic metric ('Countries', 'States', 'Cities')"
+        },
+        {
+          "number": "[PROMPT] Customer count (e.g., '10000+', '5000+')",
+          "label": "[PROMPT] Customer metric ('Satisfied Clients', 'Happy Customers')"
+        }
+      ]
+    },
+    "expertise": {
+      "type": "expertise",
+      "enabled": "[PROMPT] Set to true to enable section",
+      "title": "[PROMPT] Generate expertise title ('Our Industry Expertise', 'Industries We Serve', 'Sector Specialization')",
+      "subtitle": "[PROMPT] Create subtitle about specialized solutions/applications",
+      "description": "[PROMPT] Write overview of industry expertise and quality standards (2-3 sentences)",
+      "sectors": [
+        {
+          "id": "[PROMPT] Industry slug (e.g., 'automotive', 'aerospace')",
+          "name": "[PROMPT] Industry name",
+          "description": "[PROMPT] Write industry-specific description highlighting relevant products/services",
+          "image": "[PROMPT] Industry-relevant Unsplash image URL",
+          "applications": [
+            "[PROMPT] Generate 4-6 specific applications/products for this industry"
+          ]
+        },
+        "[PROMPT] Add 4-8 sectors based on company's actual target industries. Common sectors: automotive, electrical, construction, marine, aerospace, industrial, hvac, oil-gas"
+      ]
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "enabled": "[PROMPT] Set to true to enable section",
+      "title": "[PROMPT] Generate testimonials title ('Client Testimonials', 'What Our Clients Say', 'Customer Success Stories')",
+      "subtitle": "[PROMPT] Create subtitle about trust/satisfaction",
+      "items": [
+        {
+          "id": "client-1",
+          "name": "[PROMPT] Generate realistic client name",
+          "company": "[PROMPT] Generate realistic company name in target industry",
+          "designation": "[PROMPT] Generate appropriate job title (Purchase Manager, Director, etc.)",
+          "content": "[PROMPT] Write authentic testimonial focusing on quality, delivery, service (2-3 sentences)",
+          "rating": "[PROMPT] Set rating 4 or 5",
+          "image": "[PROMPT] Professional headshot from Unsplash (search: professional, business, portrait)"
+        },
+        {
+          "id": "client-2",
+          "name": "[PROMPT] Generate another realistic client name",
+          "company": "[PROMPT] Generate different company name",
+          "designation": "[PROMPT] Generate different job title",
+          "content": "[PROMPT] Write testimonial focusing on different aspects (long-term partnership, innovation, etc.)",
+          "rating": "[PROMPT] Set rating 4 or 5",
+          "image": "[PROMPT] Different professional headshot"
+        },
+        "[PROMPT] Add 1-8 more testimonials based on company size and client base"
+      ]
+    },
+    "faqs": {
+      "type": "faqs",
+      "enabled": "[PROMPT] Set to true to enable section",
+      "title": "[PROMPT] Generate FAQ title ('Frequently Asked Questions', 'Common Questions', 'FAQ')",
+      "subtitle": "[PROMPT] Create subtitle about providing information/clarity",
+      "items": [
+        {
+          "id": "minimum-order",
+          "question": "[PROMPT] Generate question about order quantities/minimums",
+          "answer": "[PROMPT] Provide realistic answer about MOQ policies"
+        },
+        {
+          "id": "lead-time",
+          "question": "[PROMPT] Generate question about delivery/lead times",
+          "answer": "[PROMPT] Provide realistic answer about typical timelines"
+        },
+        {
+          "id": "quality",
+          "question": "[PROMPT] Generate question about quality assurance/certifications",
+          "answer": "[PROMPT] Provide answer about quality processes and standards"
+        },
+        "[PROMPT] Add 2-10 more relevant FAQs based on industry: customization, materials, technical support, pricing, etc."
+      ]
+    },
+    "cta": {
+      "type": "cta",
+      "enabled": "[PROMPT] Set to true to enable section",
+      "title": "[PROMPT] Generate compelling CTA title ('Ready to Get Started?', 'Start Your Project Today', 'Experience Excellence')",
+      "subtitle": "[PROMPT] Create supporting text encouraging action (mention benefits, ease of starting, etc.)",
+      "primaryCTA": {
+        "text": "[PROMPT] Primary action text ('View Products', 'Get Quote', 'Contact Us')",
+        "action": "[PROMPT] Primary destination ('/products', '/contact', '/services')"
+      },
+      "secondaryCTA": {
+        "text": "[PROMPT] Secondary action text ('Contact Now', 'Call Us', 'Learn More')",
+        "action": "[PROMPT] Secondary destination ('tel:+phone', '/about', '/contact')"
+      }
+    }
+  }
+}

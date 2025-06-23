@@ -1,0 +1,213 @@
+{
+  "hero": {
+    "cta": {
+      "primary": "Our Capabilities",
+      "secondary": "Contact Us"
+    },
+    "type": "image",
+    "title": "About Sahara Brass",
+    "enabled": true,
+    "subtitle": "Engineering Excellence in Precision Manufacturing Since 2015",
+    "description": "Sahara Brass transforms complex manufacturing challenges into precision-engineered solutions. Our commitment to quality and innovation drives us to deliver exceptional brass components that exceed industry standards and customer expectations.",
+    "backgroundImage": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2"
+  },
+  "meta": {
+    "title": "Sahara Brass - Precision Brass Components Manufacturing",
+    "description": "Leading precision brass components manufacturer serving automotive, HVAC, and industrial sectors with innovative engineering solutions since 2015."
+  },
+  "sections": {
+    "cta": {
+      "type": "cta",
+      "title": "Partner with Industry Leaders",
+      "enabled": true,
+      "subtitle": "Transform Your Manufacturing Capabilities with Sahara Brass",
+      "primaryCTA": {
+        "text": "Get a Quote",
+        "action": "/contact"
+      },
+      "secondaryCTA": {
+        "text": "Explore Services",
+        "action": "/services"
+      }
+    },
+    "awards": {
+      "type": "awards",
+      "items": [
+        {
+          "id": "manufacturing-excellence",
+          "year": 2022,
+          "title": "Manufacturing Excellence Award",
+          "authority": "Industrial Manufacturing Association",
+          "description": "Recognized for outstanding precision engineering and innovative manufacturing techniques"
+        },
+        {
+          "id": "quality-leadership",
+          "year": 2021,
+          "title": "Six Sigma Quality Leadership Award",
+          "authority": "National Quality Institute",
+          "description": "Acknowledged for implementing world-class quality management processes"
+        },
+        {
+          "id": "export-achievement",
+          "year": 2020,
+          "title": "Export Achievement Certificate",
+          "authority": "Department of Commerce",
+          "description": "Honored for significant contributions to international trade and manufacturing exports"
+        }
+      ],
+      "title": "Awards & Recognition",
+      "enabled": true,
+      "subtitle": "Celebrating Excellence in Precision Manufacturing"
+    },
+    "certificates": {
+      "type": "certificates",
+      "items": [
+        {
+          "id": "iso-9001",
+          "name": "ISO 9001:2015",
+          "image": "/placeholder.svg",
+          "description": "Certified quality management system ensuring consistent product excellence"
+        },
+        {
+          "id": "six-sigma",
+          "name": "Six Sigma Certified",
+          "image": "/placeholder.svg",
+          "description": "Advanced quality control and process improvement methodology"
+        },
+        {
+          "id": "dun-bradstreet",
+          "name": "Dun & Bradstreet Registered",
+          "image": "/placeholder.svg",
+          "description": "Verified business credibility and financial stability"
+        }
+      ],
+      "title": "Certifications & Standards",
+      "enabled": true,
+      "subtitle": "Committed to Highest Quality and Compliance"
+    },
+    "companyJourney": {
+      "type": "company-journey",
+      "items": [
+        {
+          "year": 2015,
+          "title": "Company Foundation",
+          "description": "Established Sahara Brass with a vision to revolutionize precision brass component manufacturing"
+        },
+        {
+          "year": 2018,
+          "title": "First Major Expansion",
+          "description": "Expanded manufacturing facility and invested in advanced CNC machinery"
+        },
+        {
+          "year": 2020,
+          "title": "Six Sigma Certification",
+          "description": "Achieved Six Sigma certification, demonstrating commitment to quality management"
+        },
+        {
+          "year": 2021,
+          "title": "International Market Entry",
+          "description": "Successfully expanded into international automotive and industrial markets"
+        },
+        {
+          "year": 2022,
+          "title": "Technology Innovation",
+          "description": "Implemented advanced laser marking and precision prototyping technologies"
+        }
+      ],
+      "title": "Our Journey",
+      "enabled": true,
+      "subtitle": "A Story of Growth, Innovation, and Excellence"
+    },
+    "infrastructure": {
+      "type": "infrastructure",
+      "items": [
+        {
+          "id": "cnc-machines",
+          "image": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2",
+          "title": "Advanced CNC Manufacturing",
+          "capacity": "12 High-Precision CNC Machines",
+          "description": "State-of-the-art CNC machinery enabling complex brass component manufacturing",
+          "specifications": "Tolerance: ±0.01mm, Multi-axis Capabilities"
+        },
+        {
+          "id": "quality-lab",
+          "image": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2",
+          "title": "Precision Quality Control Lab",
+          "capacity": "Comprehensive Testing Facilities",
+          "description": "Advanced metrology equipment ensuring highest quality standards",
+          "specifications": "3D Coordinate Measuring Machines, Optical Comparators"
+        }
+      ],
+      "title": "Our Manufacturing Infrastructure",
+      "enabled": true,
+      "subtitle": "Cutting-Edge Technology Driving Precision Engineering"
+    },
+    "companyOverview": {
+      "type": "company-overview",
+      "image": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2",
+      "items": [
+        {
+          "id": "overview",
+          "content": "Sahara Brass is a premier precision brass components manufacturer founded in 2015, specializing in high-quality solutions for automotive, HVAC, and industrial sectors. With advanced manufacturing capabilities and a commitment to innovation, we deliver exceptional engineering solutions that meet the most demanding industry standards.",
+          "highlights": [
+            "ISO 9001:2015 Certified",
+            "Advanced CNC Manufacturing",
+            "Global Market Presence",
+            "Six Sigma Quality Management",
+            "Custom Engineering Solutions",
+            "Rapid Prototyping Capabilities",
+            "Sustainable Manufacturing Practices",
+            "99.8% On-Time Delivery Rate"
+          ]
+        }
+      ],
+      "title": "Company Overview",
+      "enabled": true,
+      "subtitle": "Precision Engineering, Uncompromising Quality"
+    },
+    "manufacturingProcess": {
+      "type": "manufacturing-process",
+      "items": [
+        {
+          "id": "design",
+          "step": 1,
+          "title": "Engineering Design",
+          "description": "Collaborative design phase using advanced CAD/CAM technologies"
+        },
+        {
+          "id": "material",
+          "step": 2,
+          "title": "Material Selection",
+          "description": "Precision brass alloy selection based on specific application requirements"
+        },
+        {
+          "id": "production",
+          "step": 3,
+          "title": "Precision Manufacturing",
+          "description": "Advanced CNC machining with tight tolerance controls"
+        },
+        {
+          "id": "quality",
+          "step": 4,
+          "title": "Comprehensive Quality Control",
+          "description": "Rigorous multi-stage inspection using advanced metrology equipment"
+        },
+        {
+          "id": "finishing",
+          "step": 5,
+          "title": "Surface Treatment",
+          "description": "Advanced finishing techniques including deburring and laser marking"
+        },
+        {
+          "id": "delivery",
+          "step": 6,
+          "title": "Precision Packaging & Delivery",
+          "description": "Secure packaging and timely delivery with complete documentation"
+        }
+      ],
+      "title": "Manufacturing Process",
+      "enabled": true,
+      "subtitle": "Systematic Approach to Precision Engineering"
+    }
+  }
+}

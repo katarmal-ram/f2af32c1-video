@@ -1,0 +1,176 @@
+{
+  "hero": {
+    "type": "video",
+    "title": "Precision Manufacturing Solutions",
+    "enabled": true,
+    "subtitle": "Delivering High-Quality Brass Components with Unmatched Precision and Expertise",
+    "backgroundVideo": "https://example.com/sahara-brass-manufacturing-process.mp4"
+  },
+  "meta": {
+    "title": "Brass Component Manufacturing Services - Sahara Brass",
+    "description": "Premier precision brass component manufacturing for automotive, HVAC, and industrial applications with advanced engineering and quality solutions."
+  },
+  "sections": {
+    "cta": {
+      "type": "cta",
+      "title": "Ready to Transform Your Manufacturing Needs?",
+      "enabled": true,
+      "subtitle": "Partner with Sahara Brass for cutting-edge precision component solutions",
+      "primaryCTA": {
+        "text": "Request Quote",
+        "action": "/contact"
+      },
+      "secondaryCTA": {
+        "text": "Call Experts",
+        "action": "tel:+1-800-SAHARA-BRASS"
+      }
+    },
+    "services": {
+      "type": "services",
+      "items": [
+        {
+          "id": "oem-manufacturing",
+          "image": "https://unsplash.com/photos/manufacturing-precision-components",
+          "title": "OEM Manufacturing",
+          "description": "Specialized manufacturing solutions tailored to meet the exact specifications of Original Equipment Manufacturers. Our precision engineering ensures perfect component integration and performance.",
+          "capabilities": [
+            "Custom Design Adaptation",
+            "High-Precision Tolerances",
+            "Material Expertise",
+            "Scalable Production"
+          ]
+        },
+        {
+          "id": "quality-control",
+          "image": "https://unsplash.com/photos/quality-inspection",
+          "title": "Advanced Quality Control",
+          "description": "Comprehensive quality assurance processes that guarantee every component meets the highest industry standards. Our rigorous testing ensures reliability and consistency.",
+          "capabilities": [
+            "Dimensional Verification",
+            "Material Composition Analysis",
+            "Performance Testing",
+            "Six Sigma Certified"
+          ]
+        },
+        {
+          "id": "prototyping",
+          "image": "https://unsplash.com/photos/engineering-prototype",
+          "title": "Rapid Prototyping",
+          "description": "Innovative prototyping services that transform design concepts into tangible, testable components quickly and efficiently. Accelerate your product development cycle.",
+          "capabilities": [
+            "3D CAD Modeling",
+            "Rapid Iteration",
+            "Cost-Effective Solutions",
+            "Design Optimization"
+          ]
+        }
+      ],
+      "title": "Our Manufacturing Services",
+      "enabled": true,
+      "subtitle": "Comprehensive Precision Solutions for Complex Manufacturing Challenges"
+    },
+    "capabilities": {
+      "type": "capabilities",
+      "items": [
+        {
+          "id": "production-capacity",
+          "title": "Manufacturing Capacity",
+          "metrics": [
+            {
+              "label": "Monthly Production",
+              "value": "50,000+ Components"
+            },
+            {
+              "label": "Operating Shifts",
+              "value": "24/7 Production"
+            },
+            {
+              "label": "Typical Turnaround",
+              "value": "2-4 Weeks"
+            }
+          ],
+          "description": "Advanced manufacturing facilities equipped to handle high-volume, precision component production with unparalleled efficiency and consistency."
+        },
+        {
+          "id": "technical-expertise",
+          "title": "Technical Capabilities",
+          "metrics": [
+            {
+              "label": "Manufacturing Technologies",
+              "value": "7+ Advanced Techniques"
+            },
+            {
+              "label": "Industry Certifications",
+              "value": "Six Sigma, D&B Registered"
+            },
+            {
+              "label": "Custom Solution Rate",
+              "value": "95% Client Satisfaction"
+            }
+          ],
+          "description": "Cutting-edge technical expertise combining advanced manufacturing technologies with deep industry knowledge."
+        },
+        {
+          "id": "quality-standards",
+          "title": "Precision Engineering",
+          "metrics": [
+            {
+              "label": "Tolerance Precision",
+              "value": "±0.01mm"
+            },
+            {
+              "label": "Quality Assurance",
+              "value": "99.9% Defect-Free"
+            },
+            {
+              "label": "Compliance Standards",
+              "value": "ISO 9001:2015"
+            }
+          ],
+          "description": "Uncompromising commitment to precision, quality, and meeting the most stringent industry standards."
+        }
+      ],
+      "title": "Our Technical Capabilities",
+      "enabled": true,
+      "subtitle": "Advanced Manufacturing Expertise Driving Innovation"
+    },
+    "manufacturing-process": {
+      "type": "manufacturing-process",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Client Consultation",
+          "description": "Comprehensive initial assessment to understand specific component requirements and project goals."
+        },
+        {
+          "step": 2,
+          "title": "Design Engineering",
+          "description": "Collaborative design optimization using advanced CAD and simulation technologies."
+        },
+        {
+          "step": 3,
+          "title": "Precision Manufacturing",
+          "description": "Executing component production using state-of-the-art manufacturing techniques and equipment."
+        },
+        {
+          "step": 4,
+          "title": "Quality Verification",
+          "description": "Rigorous multi-stage quality control and precision measurement processes."
+        },
+        {
+          "step": 5,
+          "title": "Surface Finishing",
+          "description": "Advanced surface treatment and finishing to meet exact specifications."
+        },
+        {
+          "step": 6,
+          "title": "Delivery & Support",
+          "description": "Carefully packaged components with ongoing technical support and consultation."
+        }
+      ],
+      "title": "Our Manufacturing Process",
+      "enabled": true,
+      "subtitle": "Systematic Approach Ensuring Excellence at Every Stage"
+    }
+  }
+}

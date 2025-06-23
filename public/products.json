@@ -1,0 +1,120 @@
+{
+  "hero": {
+    "type": "image",
+    "title": "Precision Brass Components",
+    "enabled": true,
+    "subtitle": "High-Performance Brass Solutions for Automotive, HVAC, and Industrial Applications",
+    "backgroundImage": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2"
+  },
+  "meta": {
+    "title": "Brass Components | Sahara Brass | Precision Manufacturing",
+    "description": "Premium brass components for automotive, HVAC, and industrial sectors. Precision engineering, quality manufacturing, custom solutions."
+  },
+  "products": {
+    "categories": [
+      {
+        "id": "automotive-components",
+        "name": "Automotive Brass Components",
+        "image": "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b",
+        "products": [
+          {
+            "id": "brass-fittings",
+            "name": "Precision Brass Fittings",
+            "image": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2",
+            "description": "High-performance brass fittings designed for critical automotive fluid and air systems, ensuring optimal connection and flow reliability.",
+            "applications": [
+              "Fuel System Connections",
+              "Coolant Line Fittings",
+              "Air Intake Systems",
+              "Hydraulic Brake Lines",
+              "Transmission Fluid Connections"
+            ],
+            "specifications": [
+              "Material: High-Grade Brass Alloy",
+              "Temperature Range: -40°C to 150°C",
+              "Pressure Rating: Up to 250 PSI",
+              "Corrosion Resistance: Superior",
+              "Precision Tolerance: ±0.01mm"
+            ]
+          },
+          {
+            "id": "brass-valves",
+            "name": "Automotive Brass Valves",
+            "image": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2",
+            "description": "Durable brass valves engineered for precise fluid and pressure control in automotive applications, delivering exceptional performance.",
+            "applications": [
+              "Fuel Regulation",
+              "Coolant Flow Control",
+              "Air Pressure Management",
+              "Hydraulic System Valves",
+              "Transmission Fluid Control"
+            ],
+            "specifications": [
+              "Material: Specialized Brass Alloy",
+              "Operating Pressure: 0-300 PSI",
+              "Temperature Tolerance: -30°C to 180°C",
+              "Corrosion Resistance: Excellent",
+              "Precision Machining: ±0.005mm"
+            ]
+          }
+        ],
+        "description": "Specialized brass components engineered for automotive performance, reliability, and durability."
+      },
+      {
+        "id": "industrial-components",
+        "name": "Industrial Brass Components",
+        "image": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2",
+        "products": [
+          {
+            "id": "brass-connectors",
+            "name": "Industrial Brass Connectors",
+            "image": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2",
+            "description": "Robust brass connectors designed for demanding industrial applications, ensuring reliable electrical and mechanical connections.",
+            "applications": [
+              "Electrical Systems",
+              "Machinery Connections",
+              "HVAC Installations",
+              "Control Panel Wiring",
+              "Industrial Equipment Interfaces"
+            ],
+            "specifications": [
+              "Material: High-Conductivity Brass",
+              "Current Rating: Up to 50A",
+              "Voltage Tolerance: 600V",
+              "Temperature Range: -20°C to 120°C",
+              "Corrosion Resistance: Superior"
+            ]
+          }
+        ],
+        "description": "Precision brass components for industrial applications, delivering exceptional performance and reliability."
+      }
+    ],
+    "categoriesTitle": "Our Product Categories",
+    "allProductsTitle": "Complete Product Range",
+    "categoriesSubtitle": "Find the Perfect Brass Solution for Your Specific Needs",
+    "allProductsSubtitle": "Comprehensive Precision Components for Diverse Industries"
+  },
+  "sections": {
+    "cta": {
+      "type": "cta",
+      "title": "Need Custom Brass Components?",
+      "enabled": true,
+      "subtitle": "Our engineering team is ready to develop tailored solutions for your unique requirements",
+      "primaryCTA": {
+        "text": "Request Custom Quote",
+        "action": "/contact"
+      },
+      "secondaryCTA": {
+        "text": "Technical Support",
+        "action": "tel:+1-800-SAHARA-BRASS"
+      }
+    },
+    "products": {
+      "type": "products",
+      "items": [],
+      "title": "Explore Our Product Range",
+      "enabled": true,
+      "subtitle": "Precision-Engineered Brass Components for Advanced Manufacturing"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "site": {
+    "name": "Sahara Brass",
+    "favicon": "https://images.unsplash.com/photo-1636633762833-5e4d0c8f7cd7?q=80&w=64&h=64&fit=crop",
+    "tagline": "Precision Engineering, Brass Solutions"
+  },
+  "footer": {
+    "social": [
+      {
+        "url": "https://facebook.com/saharabrass",
+        "icon": "facebook",
+        "platform": "facebook"
+      },
+      {
+        "url": "https://linkedin.com/company/sahara-brass",
+        "icon": "linkedin",
+        "platform": "linkedin"
+      },
+      {
+        "url": "https://twitter.com/saharabrass",
+        "icon": "twitter",
+        "platform": "twitter"
+      },
+      {
+        "url": "https://instagram.com/saharabrass",
+        "icon": "instagram",
+        "platform": "instagram"
+      }
+    ],
+    "branding": {
+      "url": "https://ferralabs.in",
+      "text": "Made with ❤️ by",
+      "company": "Ferralabs"
+    },
+    "navigation": [
+      {
+        "href": "/",
+        "label": "Home"
+      },
+      {
+        "href": "/about",
+        "label": "About Us"
+      },
+      {
+        "href": "/services",
+        "label": "Services"
+      },
+      {
+        "href": "/products",
+        "label": "Products"
+      },
+      {
+        "href": "/contact",
+        "label": "Contact"
+      }
+    ]
+  },
+  "header": {
+    "navigation": [
+      {
+        "href": "/",
+        "label": "Home"
+      },
+      {
+        "href": "/about",
+        "label": "About Us"
+      },
+      {
+        "href": "/services",
+        "label": "Services"
+      },
+      {
+        "href": "/products",
+        "label": "Products"
+      },
+      {
+        "href": "/contact",
+        "label": "Contact"
+      }
+    ]
+  },
+  "company": {
+    "logo": "https://images.unsplash.com/photo-1636633762833-5e4d0c8f7cd7?q=80&w=300&h=300&fit=crop",
+    "name": "Sahara Brass",
+    "tagline": "Precision Engineering, Brass Solutions",
+    "description": "Sahara Brass is a premier manufacturer of precision brass components, delivering high-quality solutions for automotive, HVAC, and industrial applications. We combine advanced manufacturing techniques with unparalleled expertise to meet the most demanding industry standards."
+  },
+  "contact": {
+    "email": "info@saharabrass.com",
+    "phone": "+91-022-4567-8901",
+    "timing": [
+      {
+        "hours": "9:00 AM - 6:00 PM",
+        "label": "Mon - Fri"
+      },
+      {
+        "hours": "Closed",
+        "label": "Saturday"
+      }
+    ],
+    "address": "Plot 45, Industrial Area, Mumbai - 400001, Maharashtra, India"
+  }
+}

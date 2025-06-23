@@ -1,0 +1,157 @@
+
+{
+  "_instructions": {
+    "purpose": "Services page template showcasing comprehensive service offerings",
+    "usage": "Generate detailed services page highlighting capabilities, processes, and expertise",
+    "scalability": "Services can be expanded from 3-12 items based on company offerings"
+  },
+  "meta": {
+    "title": "[PROMPT] Generate SEO title: '{Industry} Services - {Company} | {Key Service Categories}' (max 60 chars)",
+    "description": "[PROMPT] Write meta description covering main services, capabilities, and unique value propositions (max 160 chars)"
+  },
+  "hero": {
+    "type": "[PROMPT] Choose 'video' for manufacturing/industrial services, 'image' for consulting/design services",
+    "enabled": true,
+    "title": "[PROMPT] Generate services hero title ('Our Services', 'Service Excellence', 'Comprehensive Solutions')",
+    "subtitle": "[PROMPT] Create subtitle describing service range and quality commitment",
+    "backgroundVideo": "[PROMPT] For video: Manufacturing/service process video URL",
+    "backgroundImage": "[PROMPT] For image: Professional services image from Unsplash (search: {industry}, services, professional, manufacturing)"
+  },
+  "sections": {
+    "services": {
+      "type": "services",
+      "enabled": true,
+      "title": "[PROMPT] Generate main services title ('Our Services', 'Service Offerings', 'What We Provide')",
+      "subtitle": "[PROMPT] Create subtitle about comprehensive solutions and expertise",
+      "items": [
+        {
+          "id": "[PROMPT] Service slug",
+          "title": "[PROMPT] Primary service title",
+          "description": "[PROMPT] Write compelling service description highlighting value and benefits (2-3 sentences)",
+          "capabilities": [
+            "[PROMPT] Generate 4-8 specific capabilities/features for this service"
+          ],
+          "image": "[PROMPT] Service-relevant image from Unsplash"
+        },
+        "[PROMPT] Add 4-8 more services based on company offerings. Common services: design/engineering, manufacturing, quality assurance, consulting, maintenance, installation, training, etc."
+      ]
+    },
+    "capabilities": {
+      "type": "capabilities",
+      "enabled": true,
+      "title": "[PROMPT] Generate capabilities title ('Our Capabilities', 'Technical Expertise', 'What Sets Us Apart')",
+      "subtitle": "[PROMPT] Create subtitle about advanced technology and expertise",
+      "items": [
+        {
+          "id": "production-capacity",
+          "title": "[PROMPT] Production/capacity title",
+          "description": "[PROMPT] Describe production capabilities and capacity",
+          "metrics": [
+            {
+              "label": "[PROMPT] Capacity metric label",
+              "value": "[PROMPT] Capacity value (units, volume, etc.)"
+            },
+            {
+              "label": "[PROMPT] Operating metric label",
+              "value": "[PROMPT] Operating capability (24/7, shifts, etc.)"
+            },
+            {
+              "label": "[PROMPT] Timeline metric label",
+              "value": "[PROMPT] Delivery timeline capability"
+            }
+          ]
+        },
+        {
+          "id": "technical-expertise",
+          "title": "[PROMPT] Technical expertise title",
+          "description": "[PROMPT] Describe technical capabilities and specializations",
+          "metrics": [
+            {
+              "label": "[PROMPT] Technology metric",
+              "value": "[PROMPT] Technology count/capability"
+            },
+            {
+              "label": "[PROMPT] Expertise metric",
+              "value": "[PROMPT] Years of experience/certification level"
+            },
+            {
+              "label": "[PROMPT] Innovation metric",
+              "value": "[PROMPT] R&D capability/custom solutions"
+            }
+          ]
+        },
+        {
+          "id": "quality-standards",
+          "title": "[PROMPT] Quality/precision title",
+          "description": "[PROMPT] Describe quality standards and precision capabilities",
+          "metrics": [
+            {
+              "label": "[PROMPT] Precision metric",
+              "value": "[PROMPT] Tolerance/precision level"
+            },
+            {
+              "label": "[PROMPT] Quality metric",
+              "value": "[PROMPT] Quality rate/standard"
+            },
+            {
+              "label": "[PROMPT] Compliance metric",
+              "value": "[PROMPT] Certifications/standards met"
+            }
+          ]
+        }
+      ]
+    },
+    "manufacturing-process": {
+      "type": "manufacturing-process",
+      "enabled": true,
+      "title": "[PROMPT] Generate process title ('Our Process', 'Service Methodology', 'How We Deliver')",
+      "subtitle": "[PROMPT] Create subtitle about systematic approach and excellence",
+      "steps": [
+        {
+          "step": 1,
+          "title": "[PROMPT] Initial phase title (Consultation, Requirements, Planning)",
+          "description": "[PROMPT] Describe first step in service delivery process"
+        },
+        {
+          "step": 2,
+          "title": "[PROMPT] Design/planning phase title",
+          "description": "[PROMPT] Describe design or planning phase"
+        },
+        {
+          "step": 3,
+          "title": "[PROMPT] Implementation/production phase title",
+          "description": "[PROMPT] Describe main execution/production phase"
+        },
+        {
+          "step": 4,
+          "title": "[PROMPT] Quality/testing phase title",
+          "description": "[PROMPT] Describe quality assurance and testing procedures"
+        },
+        {
+          "step": 5,
+          "title": "[PROMPT] Completion/finishing phase title",
+          "description": "[PROMPT] Describe final completion and finishing processes"
+        },
+        {
+          "step": 6,
+          "title": "[PROMPT] Delivery/support phase title",
+          "description": "[PROMPT] Describe delivery and ongoing support"
+        }
+      ]
+    },
+    "cta": {
+      "type": "cta",
+      "enabled": true,
+      "title": "[PROMPT] Generate service CTA title ('Ready to Start?', 'Let's Discuss Your Project', 'Get Expert Help')",
+      "subtitle": "[PROMPT] Create compelling subtitle encouraging consultation/engagement",
+      "primaryCTA": {
+        "text": "[PROMPT] Primary action ('Contact Experts', 'Get Consultation', 'Request Quote')",
+        "action": "/contact"
+      },
+      "secondaryCTA": {
+        "text": "[PROMPT] Secondary action ('Free Consultation', 'Call Now', 'Learn More')",
+        "action": "[PROMPT] Phone number or additional info destination"
+      }
+    }
+  }
+}

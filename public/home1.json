@@ -1,0 +1,192 @@
+{
+  "hero": {
+    "cta": {
+      "primary": "Explore Precision Components",
+      "secondary": "Get a Custom Quote",
+      "primaryAction": "/products",
+      "secondaryAction": "/contact"
+    },
+    "type": "video",
+    "title": "Precision Brass Manufacturing Excellence",
+    "enabled": true,
+    "subtitle": "Engineered Solutions for Critical Industrial Applications",
+    "backgroundImage": "https://images.unsplash.com/photo-1666618090858-fbcee636bd3e",
+    "backgroundVideo": "https://hthusloogpnfqefzskvh.supabase.co/storage/v1/object/public/videos//cnc%20machining%20brass.mp4"
+  },
+  "meta": {
+    "title": "Sahara Brass - Precision Component Manufacturing",
+    "description": "Leading manufacturer of high-quality brass components for automotive, HVAC, and industrial sectors with advanced precision engineering."
+  },
+  "sections": {
+    "cta": {
+      "type": "cta",
+      "title": "Ready to Transform Your Manufacturing Needs?",
+      "enabled": true,
+      "subtitle": "Partner with Sahara Brass for cutting-edge precision component solutions tailored to your specific requirements.",
+      "primaryCTA": {
+        "text": "View Our Capabilities",
+        "action": "/services"
+      },
+      "secondaryCTA": {
+        "text": "Contact Our Experts",
+        "action": "/contact"
+      }
+    },
+    "faqs": {
+      "type": "faqs",
+      "items": [
+        {
+          "id": "minimum-order",
+          "answer": "We offer flexible manufacturing solutions with minimum order quantities starting from 100 units, adaptable to your specific project requirements.",
+          "question": "What are your minimum order quantities?"
+        },
+        {
+          "id": "lead-time",
+          "answer": "Standard lead times range from 2-6 weeks depending on component complexity and order volume. Rush services are available for urgent projects.",
+          "question": "What are your typical production lead times?"
+        },
+        {
+          "id": "quality",
+          "answer": "We are Six Sigma certified and maintain ISO 9001:2015 standards, ensuring consistent high-quality precision manufacturing.",
+          "question": "What quality certifications do you maintain?"
+        },
+        {
+          "id": "customization",
+          "answer": "Absolutely. Our engineering team specializes in custom prototyping and can develop precision components tailored to your exact specifications.",
+          "question": "Can you handle custom component designs?"
+        }
+      ],
+      "title": "Frequently Asked Questions",
+      "enabled": true,
+      "subtitle": "Get instant answers about our precision manufacturing capabilities"
+    },
+    "stats": {
+      "type": "stats",
+      "items": [
+        {
+          "label": "Years Experience",
+          "number": "8+"
+        },
+        {
+          "label": "Precision Products",
+          "number": "500+"
+        },
+        {
+          "label": "Industries Served",
+          "number": "15+"
+        },
+        {
+          "label": "Satisfied Clients",
+          "number": "250+"
+        }
+      ],
+      "title": "Our Manufacturing Excellence",
+      "enabled": true,
+      "subtitle": "Delivering precision solutions across diverse industrial sectors"
+    },
+    "expertise": {
+      "type": "expertise",
+      "title": "Industries We Serve",
+      "enabled": true,
+      "sectors": [
+        {
+          "id": "automotive",
+          "name": "Automotive",
+          "image": "https://images.unsplash.com/photo-1519642918284-3b10e1d8fca0",
+          "description": "Specialized brass components engineered for automotive performance, durability, and reliability.",
+          "applications": [
+            "Brass Valves",
+            "Fuel System Connectors",
+            "Heat Exchanger Components",
+            "Precision Fasteners"
+          ]
+        },
+        {
+          "id": "hvac",
+          "name": "HVAC",
+          "image": "https://images.unsplash.com/photo-1580937228072-9aaafb5c4d98",
+          "description": "High-performance brass components designed for heating, ventilation, and air conditioning systems.",
+          "applications": [
+            "Pipe Fittings",
+            "Valve Assemblies",
+            "Thermal Regulation Components",
+            "Pressure Control Mechanisms"
+          ]
+        }
+      ],
+      "subtitle": "Precision Engineering Across Critical Sectors",
+      "description": "Sahara Brass delivers specialized brass manufacturing solutions with uncompromising quality and technical expertise."
+    },
+    "whyChooseUs": {
+      "type": "why-choose-us",
+      "items": [
+        {
+          "id": "quality",
+          "icon": "shield-check",
+          "title": "Unmatched Quality Standards",
+          "description": "Our Six Sigma certification ensures rigorous quality control and consistent precision in every component we manufacture."
+        },
+        {
+          "id": "experience",
+          "icon": "trending-up",
+          "title": "Proven Manufacturing Expertise",
+          "description": "With 8+ years of specialized brass component manufacturing, we bring deep technical knowledge to every project."
+        },
+        {
+          "id": "technology",
+          "icon": "cog",
+          "title": "Advanced Manufacturing Technology",
+          "description": "We leverage state-of-the-art CNC machining and precision engineering techniques to deliver superior brass components."
+        }
+      ],
+      "title": "Why Partner with Sahara Brass",
+      "enabled": true,
+      "subtitle": "Delivering precision, reliability, and innovation"
+    },
+    "aboutusintro": {
+      "type": "about-us-intro",
+      "image": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e",
+      "title": "About Sahara Brass",
+      "enabled": true,
+      "subtitle": "Precision Manufacturing Pioneers",
+      "highlights": [
+        "ISO 9001:2015 Certified",
+        "500+ Product Variants",
+        "15+ Industries Served",
+        "Advanced CNC Manufacturing Capabilities"
+      ],
+      "description": "Founded in 2015, Sahara Brass has emerged as a premier precision brass component manufacturer. We specialize in delivering high-quality, engineered solutions for automotive, HVAC, and industrial sectors, combining technical expertise with innovative manufacturing processes."
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "items": [
+        {
+          "id": "client-1",
+          "name": "Michael Rodriguez",
+          "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a",
+          "rating": 5,
+          "company": "AutoTech Solutions",
+          "content": "Sahara Brass consistently delivers exceptional precision components that meet our stringent automotive engineering requirements. Their technical expertise and reliability are unmatched.",
+          "designation": "Chief Procurement Officer"
+        },
+        {
+          "id": "client-2",
+          "name": "Emily Chen",
+          "image": "https://images.unsplash.com/photo-1573496359394-025c7bea9c4c",
+          "rating": 5,
+          "company": "Global HVAC Systems",
+          "content": "Working with Sahara Brass has transformed our component sourcing. Their innovative solutions and commitment to quality have significantly improved our product performance.",
+          "designation": "Director of Engineering"
+        }
+      ],
+      "title": "Client Success Stories",
+      "enabled": true,
+      "subtitle": "Trusted by Industry Leaders"
+    }
+  },
+  "_instructions": {
+    "usage": "Dynamic home page content showcasing Sahara Brass manufacturing expertise",
+    "purpose": "Professional presentation of precision component manufacturing capabilities",
+    "content_tone": "Technical, confident, solution-oriented"
+  }
+}
