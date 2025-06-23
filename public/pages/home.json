@@ -1,246 +1,194 @@
-
 {
-  "meta": {
-    "title": "Ashapura Brass Industries - Precision Engineering Excellence",
-    "description": "Leading manufacturer of precision brass components for automotive, pneumatic, aerospace, and hydraulic applications"
-  },
   "hero": {
-    "type": "video",
-    "enabled": true,
-    "title": "Precision Brass Engineering Excellence",
-    "subtitle": "Manufacturing superior brass components for critical applications",
-    "backgroundVideo": "https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/NL0L5N5Rgimkt8edi/videoblocks-authomatic-lathe-drill-the-thread-and-rounds-the-edges-of-the-part_seemoxrjtx__456bda19ebbb32c7b3b6e1208019deab__P1080.mp4?response-content-disposition=attachment%3Bfilename%3Dauthomatic-lathe-drill-the-thread-and-rounds-the-edges-of-the-part-SBV-327456926-preview.mp4",
-    "backgroundImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2000&q=80",
     "cta": {
-      "primary": "Explore Products",
-      "primaryAction": "/products",
-      "secondary": "Get Quote",
+      "primary": "Explore Brass Forging Solutions",
+      "secondary": "Get a Custom Quote",
+      "primaryAction": "/services",
       "secondaryAction": "/contact"
-    }
+    },
+    "type": "video",
+    "title": "Precision Brass Forging Excellence",
+    "enabled": true,
+    "subtitle": "Crafting High-Quality Brass Components for Industrial Applications",
+    "backgroundImage": "https://images.unsplash.com/photo-1666618090858-fbcee636bd3e",
+    "backgroundVideo": "https://hthusloogpnfqefzskvh.supabase.co/storage/v1/object/public/videos//cnc%20machining%20brass.mp4"
+  },
+  "meta": {
+    "title": "123 Brass - Custom Forging Solutions | Industrial Manufacturing",
+    "description": "Leading brass forging manufacturer in Jamnagar, delivering precision-engineered components for diverse industrial applications."
   },
   "sections": {
-    "whyChooseUs": {
-      "type": "why-choose-us",
+    "cta": {
+      "type": "cta",
+      "title": "Ready to Transform Your Manufacturing Needs?",
       "enabled": true,
-      "title": "Why Choose Ashapura Brass Industries",
-      "subtitle": "Excellence in precision brass manufacturing",
+      "subtitle": "Partner with 123 Brass for unparalleled forging expertise and custom solutions",
+      "primaryCTA": {
+        "text": "View Our Services",
+        "action": "/services"
+      },
+      "secondaryCTA": {
+        "text": "Contact Our Experts",
+        "action": "/contact"
+      }
+    },
+    "faqs": {
+      "type": "faqs",
       "items": [
         {
+          "id": "minimum-order",
+          "answer": "We accommodate both small and large volume orders, with flexible minimum order quantities tailored to your specific project requirements.",
+          "question": "What is your minimum order quantity?"
+        },
+        {
+          "id": "lead-time",
+          "answer": "Lead times vary by project complexity, typically ranging from 2-6 weeks. We provide detailed timelines during initial project consultation.",
+          "question": "What are your typical production lead times?"
+        },
+        {
           "id": "quality",
-          "icon": "award",
-          "title": "Superior Quality",
-          "description": "ISO 9001:2015 certified manufacturing processes ensuring consistent quality and reliability in every component."
+          "answer": "We maintain rigorous quality control processes, including precision measurements, material testing, and comprehensive inspection protocols.",
+          "question": "How do you ensure product quality?"
         },
         {
-          "id": "experience",
-          "icon": "clock",
-          "title": "35+ Years Experience",
-          "description": "Over three decades of expertise in precision brass machining and manufacturing complex components."
-        },
-        {
-          "id": "technology",
-          "icon": "cog",
-          "title": "Advanced Technology",
-          "description": "State-of-the-art CNC machines and automated production lines for precision manufacturing."
+          "id": "materials",
+          "answer": "We specialize in brass and steel forging, offering expertise in various alloy compositions and manufacturing techniques.",
+          "question": "What materials do you work with?"
         }
-      ]
-    },
-    "aboutusintro": {
-      "type": "about-us-intro",
+      ],
+      "title": "Frequently Asked Questions",
       "enabled": true,
-      "title": "About Ashapura Brass Industries",
-      "subtitle": "Leading precision brass component manufacturer",
-      "description": "Established in 1985, Ashapura Brass Industries has been at the forefront of precision brass manufacturing, serving automotive, pneumatic, aerospace, and hydraulic industries with superior quality components and exceptional customer service.",
-      "image": "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?auto=format&fit=crop&w=800&q=80",
-      "highlights": [
-        "ISO 9001:2015 Certified",
-        "500+ Product Variants Available",
-        "50+ Countries Served",
-        "24/7 Technical Support"
-      ]
+      "subtitle": "Get instant answers to common queries about our forging services"
     },
     "stats": {
       "type": "stats",
-      "enabled": true,
-      "title": "Our Manufacturing Achievements",
-      "subtitle": "Delivering excellence across global markets",
       "items": [
-        { "number": "35+", "label": "Years Experience" },
-        { "number": "500+", "label": "Product Variants" },
-        { "number": "50+", "label": "Countries Served" },
-        { "number": "10000+", "label": "Satisfied Clients" }
-      ]
+        {
+          "label": "Years Experience",
+          "number": "15+"
+        },
+        {
+          "label": "Product Variants",
+          "number": "200+"
+        },
+        {
+          "label": "Served Regions",
+          "number": "10+"
+        },
+        {
+          "label": "Satisfied Clients",
+          "number": "500+"
+        }
+      ],
+      "title": "Our Manufacturing Achievements",
+      "enabled": true,
+      "subtitle": "Delivering excellence through continuous innovation and precision"
     },
     "expertise": {
       "type": "expertise",
+      "title": "Industries We Serve",
       "enabled": true,
-      "title": "Our Industry Expertise",
-      "subtitle": "Specialized brass components for critical applications",
-      "description": "We serve diverse industries with precision-engineered brass components that meet the highest quality standards.",
       "sectors": [
         {
           "id": "automotive",
-          "name": "Automotive Industry",
-          "description": "High-precision brass components for automotive systems including engine parts and fuel delivery systems.",
-          "image": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=600&q=80",
+          "name": "Automotive",
+          "image": "https://images.unsplash.com/photo-1519642918284-3f1668a1bd4a",
+          "description": "Specialized brass components for automotive manufacturing, including precision-engineered parts and connectors.",
           "applications": [
             "Engine Components",
-            "Fuel Systems",
-            "Brake Systems",
             "Transmission Parts",
-            "Cooling Systems"
-          ]
-        },
-        {
-          "id": "electrical",
-          "name": "Electrical Industry",
-          "description": "Precision electrical components including terminals, connectors, and switching elements.",
-          "image": "https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&w=600&q=80",
-          "applications": [
-            "Electrical Contacts",
-            "Switch Connectors",
-            "Terminal Switches",
-            "Circuit Breakers",
-            "Electronic Components"
-          ]
-        },
-        {
-          "id": "construction",
-          "name": "Construction Industry",
-          "description": "Durable brass fittings and hardware for construction and architectural applications.",
-          "image": "https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?auto=format&fit=crop&w=600&q=80",
-          "applications": [
-            "Plumbing Fittings",
-            "Hardware Components",
-            "Architectural Fittings",
-            "Structural Components",
-            "Decorative Elements"
+            "Electrical Connectors",
+            "Hydraulic Fittings"
           ]
         },
         {
           "id": "marine",
-          "name": "Marine Industry",
-          "description": "Corrosion-resistant brass components designed for marine and offshore applications.",
-          "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=80",
+          "name": "Marine",
+          "image": "https://images.unsplash.com/photo-1504439904036-b1e5ca4be0b3",
+          "description": "Corrosion-resistant brass forging solutions for marine and naval equipment applications.",
           "applications": [
-            "Propeller Shafts",
-            "Marine Valves",
-            "Hull Fittings",
-            "Navigation Equipment",
-            "Deck Hardware"
-          ]
-        },
-        {
-          "id": "aerospace",
-          "name": "Aerospace Industry",
-          "description": "High-precision components meeting stringent aerospace quality and safety standards.",
-          "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=600&q=80",
-          "applications": [
-            "Aircraft Components",
-            "Hydraulic Fittings",
-            "Navigation Systems",
-            "Control Mechanisms",
-            "Safety Equipment"
-          ]
-        },
-        {
-          "id": "industrial",
-          "name": "Industrial Machinery",
-          "description": "Robust brass components for heavy machinery and industrial equipment applications.",
-          "image": "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?auto=format&fit=crop&w=600&q=80",
-          "applications": [
-            "Machine Components",
-            "Hydraulic Fittings",
-            "Valve Bodies",
-            "Pressure Vessels",
-            "Heat Exchangers"
-          ]
-        },
-        {
-          "id": "hvac",
-          "name": "HVAC Systems",
-          "description": "Precision fittings and components for heating, ventilation, and air conditioning systems.",
-          "image": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=600&q=80",
-          "applications": [
-            "Pipe Fittings",
-            "Valve Components",
-            "Control Parts",
-            "Distribution Systems",
-            "System Components"
-          ]
-        },
-        {
-          "id": "oil-gas",
-          "name": "Oil & Gas",
-          "description": "High-pressure resistant components for oil and gas exploration and processing equipment.",
-          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80",
-          "applications": [
-            "Drilling Equipment",
-            "Pipeline Fittings",
-            "Pressure Gauges",
-            "Control Valves",
-            "Safety Equipment"
+            "Nautical Fittings",
+            "Propulsion Components",
+            "Valve Systems",
+            "Structural Connectors"
           ]
         }
-      ]
+      ],
+      "subtitle": "Delivering specialized forging solutions across multiple sectors",
+      "description": "123 Brass provides comprehensive forging expertise across diverse industrial applications, combining advanced manufacturing techniques with precision engineering."
+    },
+    "whyChooseUs": {
+      "type": "why-choose-us",
+      "items": [
+        {
+          "id": "quality",
+          "icon": "shield-check",
+          "title": "Uncompromising Quality Standards",
+          "description": "We implement stringent quality control measures, ensuring every component meets the highest industry specifications and client requirements."
+        },
+        {
+          "id": "experience",
+          "icon": "calendar",
+          "title": "Decades of Manufacturing Expertise",
+          "description": "With 15+ years of specialized experience, we bring deep technical knowledge and proven manufacturing capabilities to every project."
+        },
+        {
+          "id": "technology",
+          "icon": "cog",
+          "title": "Advanced Manufacturing Technology",
+          "description": "Utilizing state-of-the-art forging equipment and innovative techniques to deliver superior precision and performance."
+        }
+      ],
+      "title": "Why Choose 123 Brass",
+      "enabled": true,
+      "subtitle": "Your trusted partner in precision brass forging solutions"
+    },
+    "aboutusintro": {
+      "type": "about-us-intro",
+      "image": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2",
+      "title": "About 123 Brass",
+      "enabled": true,
+      "subtitle": "Precision Engineering, Unmatched Quality",
+      "highlights": [
+        "ISO 9001:2015 Certified",
+        "200+ Product Variants",
+        "Advanced Manufacturing Facility",
+        "Custom Forging Solutions"
+      ],
+      "description": "Founded in Jamnagar, 123 Brass has been a leading manufacturer of high-quality brass and steel forged components. We combine traditional craftsmanship with modern manufacturing technologies to deliver exceptional precision and reliability for our industrial clients."
     },
     "testimonials": {
       "type": "testimonials",
-      "enabled": true,
-      "title": "What Our Clients Say",
-      "subtitle": "Trusted by industry leaders worldwide",
       "items": [
         {
           "id": "client-1",
-          "name": "Rajesh Kumar",
-          "company": "AutoTech Engineering Ltd",
-          "designation": "Purchase Manager",
-          "content": "Ashapura Brass Industries has consistently delivered high-quality components on time. Their precision and attention to detail is remarkable.",
+          "name": "Rajesh Patel",
+          "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a",
           "rating": 5,
-          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80"
+          "company": "AutoTech Industries",
+          "content": "123 Brass consistently delivers exceptional quality and precision. Their custom forging solutions have been crucial to our manufacturing process.",
+          "designation": "Procurement Manager"
         },
         {
           "id": "client-2",
-          "name": "Sarah Johnson",
-          "company": "Global Industrial Solutions",
-          "designation": "Procurement Director",
-          "content": "We've been working with Ashapura for over 10 years. Their quality standards and customer service are exceptional.",
+          "name": "Sameer Khan",
+          "image": "https://images.unsplash.com/photo-1615109398623-88346a0ba69a",
           "rating": 5,
-          "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1a7?auto=format&fit=crop&w=150&q=80"
+          "company": "Marine Engineering Solutions",
+          "content": "Reliable, innovative, and technically superior - 123 Brass has been our go-to partner for complex brass forging requirements.",
+          "designation": "Technical Director"
         }
-      ]
-    },
-    "faqs": {
-      "type": "faqs",
+      ],
+      "title": "Client Success Stories",
       "enabled": true,
-      "title": "Frequently Asked Questions",
-      "subtitle": "Common questions about our products and services",
-      "items": [
-        {
-          "id": "minimum-order",
-          "question": "What is the minimum order quantity?",
-          "answer": "Our minimum order quantity varies by product complexity. For standard items, it's typically 100 pieces, while custom components may require higher quantities."
-        },
-        {
-          "id": "lead-time",
-          "question": "What are the typical lead times?",
-          "answer": "Standard products: 2-3 weeks. Custom components: 4-6 weeks. Rush orders can be accommodated with additional charges."
-        }
-      ]
-    },
-    "cta": {
-      "type": "cta",
-      "enabled": true,
-      "title": "Ready to Experience Precision Excellence?",
-      "subtitle": "Join thousands of satisfied clients who trust Ashapura Brass Industries for their precision manufacturing needs. Get started today.",
-      "primaryCTA": {
-        "text": "View Our Products",
-        "action": "/products"
-      },
-      "secondaryCTA": {
-        "text": "Contact Now",
-        "action": "tel:+91-288-2710234"
-      }
+      "subtitle": "Trusted by industry leaders across multiple sectors"
     }
+  },
+  "_instructions": {
+    "usage": "Generate dynamic home page content that showcases company strengths and expertise",
+    "purpose": "Home page template with AI generation prompts",
+    "content_tone": "Professional, confident, customer-focused",
+    "icon_options": "Available Lucide icons: award, clock, cog, wrench, truck, headphones, shield, shield-check, star, zap, settings, check-circle, trophy, users, globe, target, trending-up, thumbs-up, lightbulb, heart, cpu, gauge, calendar, package, phone, mail, map-pin",
+    "sections_count": "Sections can be scaled - add/remove items based on company size and offerings"
   }
 }
